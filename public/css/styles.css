@@ -1,0 +1,50 @@
+body{
+    color:#333333;
+    font-family:Arial;
+    max-width: 650px;
+    margin:0 auto;             /* 0 is marin from top and bottom auto is for left and riht*/
+    padding: 0 16px;
+
+    display:flex;
+    flex-direction:column;
+    min-height:100vh;              /*take 100% space of the page*/
+}
+.main-content{
+    flex-grow:1;
+}
+footer{
+    color:#888888;
+    border-top: 1px solid #575353;
+    margin-top: 16px;
+    padding: 16px 0;
+}
+
+header{
+    margin-top: 16px;
+    margin-bottom: 16px;
+    
+}
+h1{
+    font-size: 64px;
+    margin-bottom: 16px;
+}
+header a{                    /*links inside header only*/
+    color:#575353;
+    margin-right: 16px;
+    text-decoration: none;
+}
+.potrait{                /*class name portrait usk liye specific functions sirf img k lagate to saari images pe lag jaata*/
+    max-width: 250px;
+}
+input{
+    border:1px solid #cccccc;
+    padding:8px;
+}
+button{
+    cursor:pointer;
+    border:1px solid #cccccc;
+    background: #888888;
+    color: white;
+    padding:8px;
+
+}
